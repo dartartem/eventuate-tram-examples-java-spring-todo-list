@@ -1,7 +1,7 @@
 #! /bin/bash -e
 
 
-. ./set-env.sh
+. ./set-env-mysql.sh
 
 docker-compose -f docker-compose-mysql.yml down
 
